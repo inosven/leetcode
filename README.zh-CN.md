@@ -18,6 +18,7 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 栈与队列 | 1 | 11-14 B | [stack](solutions/0150-evaluate-reverse-polish-notation/stack.py) |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | 栈与队列 | 3 | 11-17 C | [two-stack](solutions/0224-basic-calculator/two-stack.py), [sign-stack](solutions/0224-basic-calculator/sign-stack.py) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 二叉树 | 1 | 11-17 B | [recursive-postorder](solutions/0236-lowest-common-ancestor-of-a-binary-tree/recursive-postorder.py) |
+| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 栈与队列 | 1 | 11-17 B | [count-buckets](solutions/0347-top-k-frequent-elements/count-buckets.py), [sort-by-count](solutions/0347-top-k-frequent-elements/sort-by-count.py) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 动态规划 | 2 | 11-17 B | [dp-2d](solutions/0416-partition-equal-subset-sum/dp-2d.py), [dp-1d](solutions/0416-partition-equal-subset-sum/dp-1d.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 哈希表 | 1 | 11-14 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 1 | 11-17 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
