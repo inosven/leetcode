@@ -17,5 +17,6 @@ Result: A = solved independently · B = right idea, but with bugs · C = no idea
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Linked List | 1 | 11-17 B | [floyd-fast-slow](solutions/0142-linked-list-cycle-ii/floyd-fast-slow.py) |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Stack & Queue | 1 | 11-14 B | [stack](solutions/0150-evaluate-reverse-polish-notation/stack.py) |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | Stack & Queue | 3 | 11-17 C | [two-stack](solutions/0224-basic-calculator/two-stack.py), [sign-stack](solutions/0224-basic-calculator/sign-stack.py) |
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Binary Tree | 1 | 11-17 B | [recursive-postorder](solutions/0236-lowest-common-ancestor-of-a-binary-tree/recursive-postorder.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Hash Table | 1 | 11-14 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | Stack & Queue | 1 | 11-17 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
