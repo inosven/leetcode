@@ -10,6 +10,7 @@
 | # | 题目 | 章节 | 次数 | 结果记录 | 解法 |
 |---|---|---|---|---|---|
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | 链表 | 1 | 11-14 A | [fast-slow-pointers](solutions/0019-remove-nth-node-from-end-of-list/fast-slow-pointers.py) |
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 数组 | 1 | 11-17 A | [shrink-boundaries](solutions/0059-spiral-matrix-ii/shrink-boundaries.py) |
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 链表 | 1 | 11-17 B | [floyd-fast-slow](solutions/0142-linked-list-cycle-ii/floyd-fast-slow.py) |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 栈与队列 | 1 | 11-14 B | [stack](solutions/0150-evaluate-reverse-polish-notation/stack.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 哈希表 | 1 | 11-14 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
