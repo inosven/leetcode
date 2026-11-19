@@ -22,4 +22,4 @@ Result: A = solved independently · B = right idea, but with bugs · C = no idea
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | Dynamic Programming | 2 | 11-17 B | [dp-2d](solutions/0416-partition-equal-subset-sum/dp-2d.py), [dp-1d](solutions/0416-partition-equal-subset-sum/dp-1d.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | Hash Table | 1 | 11-14 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | Stack & Queue | 2 | 11-17 C, 11-19 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
-| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Dynamic Programming | 1 | 11-17 C | [dp-2d](solutions/1143-longest-common-subsequence/dp-2d.py) |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | Dynamic Programming | 2 | 11-17 C, 11-19 A | [dp-2d](solutions/1143-longest-common-subsequence/dp-2d.py) |
