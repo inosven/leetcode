@@ -3,52 +3,52 @@
 
 class Solution:
     def calculate(self, s: str) -> int:
-        s=s.replace(' ','')
-        n=len(s)
+        priority = {'+': 1, '-': 1, '*': 2, '/': 2}
+        ops = []
+        nums = []
+        s = s.replace(' ', '')
 
-        DIGITS = ['1','2','3','4','5','6','7','8','9','0' ]
-        priority = {'+':1, '-':1, '*':2, '/':2}
-        st_op = []
-        st_num = []
-        def cal_stack():
-            b = st_num.pop()
-            a = st_num.pop()
-            op = st_op.pop()
+        def calstack():
+            b = nums.pop()
+            a = nums.pop()
+            op = ops.pop()
             if op == '+':
                 val = a + b
-            else:
+            elif op == '-':
                 val = a - b
-            st_num.append(val)
-            return
+            elif op == '*':
+                val = a * b
+            elif op == '/':
+                val = int(a / b)   # 向 0 截断
+            nums.append(val)
 
-        i=0
-        while i < len(s):
-            c = s[i]
-            if c =='(':
-                st_op.append(c)
-                i+=1
-            elif c ==')':
-                while st_op[-1] != '(':
-                    cal_stack()
-                st_op.pop()
-                i+=1
-            elif c in DIGITS:
-                val = int(c)
-                while i+1 < n and s[i + 1] in DIGITS:
-                    val = val*10 + int(s[i + 1])
-                    i+=1
-                st_num.append(val)
-                i+=1
+        n = len(s)
+        i = 0
+        while i < n:
+            if s[i] == "(":
+                ops.append(s[i])
+                i += 1
+            elif s[i] == ")":
+                while ops[-1] != '(':
+                    calstack()
+                ops.pop()
+                i += 1
+            elif s[i].isdigit():
+                num = int(s[i])
+                while i + 1 < n and s[i + 1].isdigit():
+                    num = num * 10 + int(s[i + 1])
+                    i += 1
+                nums.append(num)
+                i += 1
             else:
-                if c =='-':
-                    if i==0 or (i>0 and s[i-1]) =='(':
-                        st_num.append(0)
-                while st_op and st_op[-1] != '(' and priority[st_op[-1]] >= priority[c]:
-                    cal_stack()
-                st_op.append(c)
-                i+=1
-
-        while st_op:
-            cal_stack()
-        
-        return st_num.pop()
+                # 一元负号：开头或紧跟 '(' 时补 0
+                if s[i] == '-' and (i == 0 or (i - 1 >= 0 and s[i - 1] == '(')):
+                    nums.append(0)
+                # '(' 是墙：不越过它，也不查它的优先级
+                while ops and ops[-1] != '(' and priority[s[i]] <= priority[ops[-1]]:
+                    calstack()
+                ops.append(s[i])
+                i += 1
+        while ops:
+            calstack()
+        return nums[-1]
