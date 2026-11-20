@@ -25,6 +25,7 @@
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 二叉树 | 1 | 11-17 B | [recursive-postorder](solutions/0236-lowest-common-ancestor-of-a-binary-tree/recursive-postorder.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 栈与队列 | 1 | 11-17 B | [count-buckets](solutions/0347-top-k-frequent-elements/count-buckets.py), [sort-by-count](solutions/0347-top-k-frequent-elements/sort-by-count.py) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 动态规划 | 2 | 11-17 B | [dp-2d](solutions/0416-partition-equal-subset-sum/dp-2d.py), [dp-1d](solutions/0416-partition-equal-subset-sum/dp-1d.py) |
+| 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 贪心 | 1 | 11-19 A | [greedy-sort-by-start](solutions/0452-minimum-number-of-arrows-to-burst-balloons/greedy-sort-by-start.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 哈希表 | 2 | 11-14 A, 11-19 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 单调栈 | 3 | 11-14 B, 11-19 B, 11-19 A | [monotonic-stack](solutions/0496-next-greater-element-i/monotonic-stack.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 2 | 11-17 C, 11-19 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
