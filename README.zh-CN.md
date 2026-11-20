@@ -21,5 +21,6 @@
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 栈与队列 | 1 | 11-17 B | [count-buckets](solutions/0347-top-k-frequent-elements/count-buckets.py), [sort-by-count](solutions/0347-top-k-frequent-elements/sort-by-count.py) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | 动态规划 | 2 | 11-17 B | [dp-2d](solutions/0416-partition-equal-subset-sum/dp-2d.py), [dp-1d](solutions/0416-partition-equal-subset-sum/dp-1d.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 哈希表 | 2 | 11-14 A, 11-19 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
+| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 单调栈 | 2 | 11-14 B, 11-19 B | [monotonic-stack](solutions/0496-next-greater-element-i/monotonic-stack.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 2 | 11-17 C, 11-19 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 动态规划 | 2 | 11-17 C, 11-19 A | [dp-2d](solutions/1143-longest-common-subsequence/dp-2d.py) |
