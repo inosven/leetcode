@@ -12,6 +12,7 @@ Result: A = solved independently · B = right idea, but with bugs · C = no idea
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | Two Pointers | 1 | 11-17 B | [sort-two-pointers](solutions/0015-3sum/sort-two-pointers.py) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | Two Pointers | 1 | 11-17 A | [sort-two-pointers](solutions/0018-4sum/sort-two-pointers.py) |
 | 19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Linked List | 2 | 11-14 A, 11-19 A | [fast-slow-pointers](solutions/0019-remove-nth-node-from-end-of-list/fast-slow-pointers.py) |
+| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | Backtracking | 1 | 11-19 A | [backtracking](solutions/0040-combination-sum-ii/backtracking.py) |
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Array | 1 | 11-17 A | [shrink-boundaries](solutions/0059-spiral-matrix-ii/shrink-boundaries.py) |
 | 106 | [Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | Binary Tree | 1 | 11-17 B | [recursive-slicing](solutions/0106-construct-binary-tree-from-inorder-and-postorder-traversal/recursive-slicing.py) |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | Greedy | 1 | 11-19 A | [greedy](solutions/0134-gas-station/greedy.py) |
