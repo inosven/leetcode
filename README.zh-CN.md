@@ -28,5 +28,6 @@
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 贪心 | 1 | 11-19 A | [greedy-sort-by-start](solutions/0452-minimum-number-of-arrows-to-burst-balloons/greedy-sort-by-start.py) |
 | 454 | [4Sum II](https://leetcode.com/problems/4sum-ii/) | 哈希表 | 2 | 11-14 A, 11-19 A | [hashmap-pair-sums](solutions/0454-4sum-ii/hashmap-pair-sums.py) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 单调栈 | 3 | 11-14 B, 11-19 B, 11-19 A | [monotonic-stack](solutions/0496-next-greater-element-i/monotonic-stack.py) |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | 单调栈 | 1 | 11-19 A | [monotonic-stack-two-pass](solutions/0503-next-greater-element-ii/monotonic-stack-two-pass.py) |
 | 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 2 | 11-17 C, 11-19 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 动态规划 | 2 | 11-17 C, 11-19 A | [dp-2d](solutions/1143-longest-common-subsequence/dp-2d.py) |
