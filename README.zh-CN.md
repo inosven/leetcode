@@ -21,7 +21,7 @@
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 栈与队列 | 2 | 11-14 B, 11-19 B | [stack](solutions/0150-evaluate-reverse-polish-notation/stack.py) |
 | 151 | [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | 字符串 | 1 | 11-19 B | [reverse-twice](solutions/0151-reverse-words-in-a-string/reverse-twice.py) |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | 数组 | 1 | 11-19 A | [sliding-window](solutions/0209-minimum-size-subarray-sum/sliding-window.py) |
-| 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | 栈与队列 | 4 | 11-17 C, 11-19 C | [two-stack](solutions/0224-basic-calculator/two-stack.py), [sign-stack](solutions/0224-basic-calculator/sign-stack.py) |
+| 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | 栈与队列 | 6 | 11-17 C, 11-19 C, 11-20 B | [two-stack](solutions/0224-basic-calculator/two-stack.py), [sign-stack](solutions/0224-basic-calculator/sign-stack.py) |
 | 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | 二叉树 | 1 | 11-17 B | [recursive-postorder](solutions/0236-lowest-common-ancestor-of-a-binary-tree/recursive-postorder.py) |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | 动态规划 | 1 | 11-20 B | [dp-2d](solutions/0322-coin-change/dp-2d.py), [dp-1d](solutions/0322-coin-change/dp-1d.py) |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 栈与队列 | 1 | 11-17 B | [count-buckets](solutions/0347-top-k-frequent-elements/count-buckets.py), [sort-by-count](solutions/0347-top-k-frequent-elements/sort-by-count.py) |
@@ -31,5 +31,5 @@
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 单调栈 | 3 | 11-14 B, 11-19 B, 11-19 A | [monotonic-stack](solutions/0496-next-greater-element-i/monotonic-stack.py) |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | 单调栈 | 1 | 11-19 A | [monotonic-stack-two-pass](solutions/0503-next-greater-element-ii/monotonic-stack-two-pass.py) |
 | 695 | [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | 图论 | 1 | 11-19 B | [dfs-stack](solutions/0695-max-area-of-island/dfs-stack.py), [dfs-recursive](solutions/0695-max-area-of-island/dfs-recursive.py) |
-| 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 2 | 11-17 C, 11-19 C | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
+| 772 | [Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/) (Premium) | 栈与队列 | 4 | 11-17 C, 11-19 C, 11-20 B | [two-stack](solutions/0772-basic-calculator-iii/two-stack.py) |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | 动态规划 | 2 | 11-17 C, 11-19 A | [dp-2d](solutions/1143-longest-common-subsequence/dp-2d.py) |
